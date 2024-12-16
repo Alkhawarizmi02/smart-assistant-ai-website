@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+}
+
+.hero-section {
+    @apply pt-56 max-lg:pt-44 max-md:pt-40 pb-24 flex flex-col items-center gap-4 text-center bg-gradient-to-t from-secondary to-accent
+}
+
+.hero-section .headline {
+    @apply mx-48 max-lg:mx-8 max-md:mx-1 max-sm:mx-[2px] text-6xl max-sm:text-4xl text-slate-950 font-extrabold max-sm:font-bold leading-tight
+}
+
+.hero-section .sub-headline {
+    @apply mx-5 text-xl text-gray-700 font-medium max-sm:text-lg leading-normal
+}
