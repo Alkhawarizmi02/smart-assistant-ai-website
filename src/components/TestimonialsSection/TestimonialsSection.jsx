@@ -1,4 +1,7 @@
 import TestimonialCard from "./TestimonialCard ";
+import img1 from '/src/assets/alex-suprun-ZHvM3XIOHoE-unsplash.jpg';
+import img2 from '/src/assets/christopher-campbell-rDEOVtE7vOs-unsplash.jpg';
+import img3 from '/src/assets/zhanarys-dakhiyev-WMlRkqt1vII-unsplash.jpg';
 
 function TestimonialsSection() {
     const testimonials = [
@@ -6,37 +9,37 @@ function TestimonialsSection() {
             name: "Hikmet Atçeken",
             username: "hiatceken",
             text: "SmartAssistant AI has transformed the way we manage tasks, making every day more productive and less stressful!",
-            avatar: "./src/assets/alex-suprun-ZHvM3XIOHoE-unsplash.jpg",
+            avatar: img1,
         },
         {
             name: "Arda Guler",
             username: "ardaguler_x",
             text: "With SmartAssistant AI, prioritizing tasks and meeting deadlines has never been easier. It's an absolute must-have!",
-            avatar: "./src/assets/zhanarys-dakhiyev-WMlRkqt1vII-unsplash.jpg",
+            avatar: img2,
         },
         {
             name: "Maria Ancelotti",
             username: "maria_ancelotti",
             text: "SmartAssistant AI takes the chaos out of daily planning. It’s like having a personal assistant available 24/7!",
-            avatar: "./src/assets/christopher-campbell-rDEOVtE7vOs-unsplash.jpg",
+            avatar: img3,
         },
         {
             name: "Ragip Diler",
             username: "rgdiler",
             text: "Thanks to SmartAssistant AI, I can focus on what truly matters while it handles my scheduling and tasks seamlessly!",
-            avatar: "./src/assets/christopher-campbell-rDEOVtE7vOs-unsplash.jpg",
+            avatar: img3,
         },
         {
             name: "Jenny Wilson",
             username: "wilson_jenny19",
             text: "SmartAssistant AI is intuitive, efficient, and a game-changer for professionals juggling multiple responsibilities.",
-            avatar: "./src/assets/alex-suprun-ZHvM3XIOHoE-unsplash.jpg",
+            avatar: img1,
         },
         {
             name: "Guy Hawkins",
             username: "ghawkins",
             text: "SmartAssistant AI helps me stay organized and productive, no matter how hectic my day gets. Highly recommend it!",
-            avatar: "./src/assets/zhanarys-dakhiyev-WMlRkqt1vII-unsplash.jpg",
+            avatar: img2,
         },
     ];
     

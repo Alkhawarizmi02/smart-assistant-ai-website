@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import LoginButton from './LoginButton';
+import logo from '/src/assets/logo.svg'
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ function Navbar() {
     <header className="fixed top-4 right-8 left-8 max-md:right-1 max-md:left-1 max-w-6xl lg:m-auto mx-4 px-6 py-4 rounded-2xl bg-slate-100 shadow-md z-50">
       <nav className="m-auto w-full flex justify-between content-center">
         {/* Logo */}
-        <img src="./public/logo.svg" alt="SmartAssistant AI Logo" className="h-11" />
+        <img src={logo} alt="SmartAssistant AI Logo" className="h-11" />
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex items-center gap-8">
