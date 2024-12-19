@@ -51,16 +51,16 @@ This website is deployed on GitHub Pages. To update the live site:
 
 ## Screenshots
 ### Hero Section
-![Hero Section](https://via.placeholder.com/600x300)
+![Hero Section](/screenshots/hero-section.png)
 
 ### Features
-![Features](https://via.placeholder.com/600x300)
+![Features](/screenshots/features.png)
 
 ### Pricing Plans
-![Pricing Section](https://via.placeholder.com/600x300)
+![Pricing Section](/screenshots/pricing.png)
 
 ### Testimonials
-![Testimonials](https://via.placeholder.com/600x300)
+![Testimonials](/screenshots/testimonial.png)
 
 ## Contributing
 Contributions are welcome! To suggest improvements:
