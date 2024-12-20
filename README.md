@@ -78,5 +78,5 @@ For any inquiries, feel free to reach out:
 - **GitHub**: [@Alkhawarizmi02](https://github.com/Alkhawarizmi02)
 
 ---
-Designed and developed with ❤️ by **[Alkhawarizmi02]**.
+Designed and developed with ❤️ by **Alkhawarizmi02**.
 
